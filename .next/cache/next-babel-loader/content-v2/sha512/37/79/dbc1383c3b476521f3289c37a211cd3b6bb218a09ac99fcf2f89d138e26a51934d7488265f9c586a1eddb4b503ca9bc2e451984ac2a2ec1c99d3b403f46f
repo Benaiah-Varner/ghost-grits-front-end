@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled from 'styled-components';\nconst CloseButton = styled.button.withConfig({\n  displayName: \"CloseButton\",\n  componentId: \"zgi5ou-0\"\n})([\"background:white;color:#662916;font-size:3rem;border:0;\"]);\nexport default CloseButton;","map":null,"metadata":{},"sourceType":"module"}

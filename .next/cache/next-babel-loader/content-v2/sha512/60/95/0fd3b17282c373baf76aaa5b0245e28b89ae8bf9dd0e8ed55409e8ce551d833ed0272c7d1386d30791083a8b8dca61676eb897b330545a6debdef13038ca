@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled from 'styled-components';\nexport var ImageRow = styled.div.withConfig({\n  displayName: \"ImageRow\",\n  componentId: \"i31sid-0\"\n})([\"margin:16px 0px;display:flex;height:365px;img{height:100%;width:100%;object-fit:cover;}.item1{flex:1;}.item2{flex:2;}.one{margin-right:16px;}\"]);","map":null,"metadata":{},"sourceType":"module"}

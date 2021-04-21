@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var endpoint = \"https://ghost-grits-server.herokuapp.com/admin/api\"; // export const endpoint = `http://localhost:3000/admin/api`;\n\nexport var prodEndpoint = \"https://ghost-grits-server.herokuapp.com/admin/api\";","map":null,"metadata":{},"sourceType":"module"}
