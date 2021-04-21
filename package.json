@@ -1,0 +1,114 @@
+{
+  "name": "ghost-grits",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 7777",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.6",
+    "@apollo/link-error": "^2.0.0-beta.3",
+    "@apollo/react-ssr": "^4.0.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.11.0",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "apollo-upload-client": "^14.1.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-styled-components": "^1.12.0",
+    "downshift": "^6.1.2",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.11.0",
+    "graphql-upload": "^11.0.0",
+    "less-vars-to-js": "^1.3.0",
+    "next": "^10.1.3",
+    "next-with-apollo": "^5.1.1",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^4.3.0",
+    "stripe": "^8.143.0",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0"
+  },
+  "babel": {
+    "env": {
+      "development": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      },
+      "production": {
+        "presets": [
+          "next/babel"
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      },
+      "test": {
+        "presets": [
+          [
+            "next/babel",
+            {
+              "preset-env": {
+                "modules": "commonjs"
+              }
+            }
+          ]
+        ],
+        "plugins": [
+          [
+            "styled-components",
+            {
+              "ssr": true,
+              "displayName": true
+            }
+          ]
+        ]
+      }
+    }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benaiah-Varner/Ghost-Grits.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benaiah-Varner/Ghost-Grits/issues"
+  },
+  "homepage": "https://github.com/Benaiah-Varner/Ghost-Grits#readme"
+}
