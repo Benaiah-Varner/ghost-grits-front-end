@@ -39,6 +39,7 @@ const HeaderStyled = styled.div`
     justify-content: space-between;
     align-items: center;
     .cartButton {
+  cursor: pointer;
       padding-right: 5%;
     }
  }
@@ -82,6 +83,7 @@ const HeaderStyled = styled.div`
 `;
 
 const StyledBurger = styled.div`
+  cursor: pointer;
   width: 2rem;
   height: 2rem;
   display: flex;

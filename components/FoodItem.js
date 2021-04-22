@@ -23,7 +23,7 @@ const FixedItem = ({ food }) => {
     <div className="menu-item">
       <h3>{food.name}</h3>
       <p>{food.description}</p>
-      <span>{food.price}</span>
+      <span>${food.price}</span>
       <button onClick={handleClick} className="addToCart">
         <FontAwesomeIcon className="icon" icon={faCartPlus} />
         Add To Cart

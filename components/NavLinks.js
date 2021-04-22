@@ -10,6 +10,13 @@ const StyledLinks = styled.div`
   transition: all 0.2s ease-in-out;
   transform: ${({ open }) => (open ? 'translateY(-100%)' : 'translateY(85%)')};
   height: 12%;
+  .menu-link {
+    cursor: pointer;
+  }
+  .link-coming {
+    font-size: .75rem;
+    color: #333;
+  }
   .nav-link {
     color: #662916;
     line-height: 1.5;
@@ -30,19 +37,23 @@ const NavLinks = ({ open }) => {
   return (
     <StyledLinks open={open}>
       <div className="nav-link">
-        <a href='/menu'>Menu</a>
+        <a href='/menu' className='menu-link'>Menu</a>
       </div>
       <div className="nav-link">
         <a>Artisanal Store</a>
+        <span className='link-coming'>(coming soon)</span>
       </div>
       <div className="nav-link">
         <a>Meal Program</a>
+        <span className='link-coming'>(coming soon)</span>
       </div>
       <div className="nav-link">
         <a>About</a>
+        <span className='link-coming'>(coming soon)</span>
       </div>
       <div className="nav-link">
         <a>Contact</a>
+        <span className='link-coming'>(coming soon)</span>
       </div>
     </StyledLinks>
   );

@@ -110,7 +110,7 @@ const CustomSalad = () => {
           styles={customStyled}
           placeholder='Choose Your Dressing'
         />
-        <span>10</span>
+        <span>$10</span>
         <button onClick={handleClick} className='addToCart'> <FontAwesomeIcon className='icon' icon={faCartPlus} />Add To Cart</button>
       </div>
   );

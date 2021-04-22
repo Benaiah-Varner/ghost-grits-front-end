@@ -23,6 +23,7 @@ export const MenuStyled = styled.div`
     font-size: 1.75rem;
     font-weight: 300;
     margin: var(--margin);
+    max-width: 90%;
     font-family: 'Montserrat', sans-serif;
     color: var(--pink-color);
   }
@@ -65,10 +66,12 @@ export const MenuStyled = styled.div`
       flex-direction: column;
       align-items: flex-start;
       margin: 20px 0px;
+      position: relative;
       span {
         color: var(--pink-color);
         position: absolute;
         right: 5px;
+        font-size: 1.5rem;
       }
     }
     .salad {
@@ -79,8 +82,10 @@ export const MenuStyled = styled.div`
       align-items: flex-start;
       margin: 6% 0px;
       span {
+        color: var(--pink-color);
         position: absolute;
         right: 5px;
+        font-size: 1.5rem;
       }
     }
   }
