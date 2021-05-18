@@ -16,7 +16,7 @@ const CustomItem = ({ item }) => {
   );
 
   return (
-    <div className="menu-item">
+    <div className="order-item">
       <h4 onClick={deleteFromCart}>&times;</h4>
       <div>
         <h3>{item.salad.name}</h3>
